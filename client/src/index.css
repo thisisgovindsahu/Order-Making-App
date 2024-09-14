@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.confirm-box {
+  position: fixed;
+  bottom: 0;
+}
+
+/* navbar css */
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0px solid gray !important;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.nav-link {
+  font-weight: 300;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "Roboto";
+  letter-spacing: 3px;
+}
+
+/* footer css */
+
+.footer {
+  color: #fff;
+  padding: 25px;
+  background: rgb(69, 64, 64);
+  background: linear-gradient(
+    90deg,
+    rgba(69, 64, 64, 1) 23%,
+    rgba(45, 43, 43, 1) 48%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+/* page not found css */
+
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* =========contact us ========= */
+
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* register page css */
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+/* ********************** */
+.product-link {
+  text-decoration: none;
+  color: #000 !important;
+}
+
+.product-img {
+  max-width: 250px;
+}
+
+.order-data-container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-width: 800px;
+  margin: 30px;
+  padding: 20px;
+}
